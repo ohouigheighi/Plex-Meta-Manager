@@ -12,7 +12,7 @@ __pycache__/
 .Python
 /test*
 logs/
-config/*
+#config/*
 !config/overlays/
 config/overlays/*/
 config/overlays/temp.jpeg
