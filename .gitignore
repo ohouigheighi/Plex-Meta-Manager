@@ -12,6 +12,7 @@ __pycache__/
 .Python
 /test*
 logs/
+config.cache
 #config/*
 !config/overlays/
 config/overlays/*/
