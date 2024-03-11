@@ -148,9 +148,9 @@ trakt:
   pin:
   authorization:
     # everything below is autofilled by the script
-    access_token: 98224e7376d47771ef84415f602ce2c7e133408b24b9518c4e9fbe63a37e3029
+    access_token: 6b92207e25e90f5abe1eab75fcc8caba750b8e1374d0dffd062e4688aed40024
     token_type: Bearer
     expires_in: 7889238
-    refresh_token: 0cdd55da1e8bcc258527ef7d7bc9e918b06a5cf070a40fd86ae4aeaa5b023241
+    refresh_token: a19743b1efb17f8b8b57b4e1fe8cf30554622ba200823023ec602ad39785e263
     scope: public
-    created_at: 1701449758
+    created_at: 1709588660
