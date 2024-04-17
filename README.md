@@ -7,7 +7,7 @@
 [![Nightly GitHub commits since latest stable release (by SemVer)](https://img.shields.io/github/commits-since/meisnate12/plex-meta-manager/latest/nightly?label=Commits%20in%20Nightly&style=plastic)](https://github.com/meisnate12/Plex-Meta-Manager/tree/nightly)
 
 [![Discord](https://img.shields.io/discord/822460010649878528?color=%2300bc8c&label=Discord&style=plastic)](https://metamanager.wiki/en/latest/discord/)
-[![Reddit](https://img.shields.io/reddit/subreddit-subscribers/PlexMetaManager?color=%2300bc8c&label=r%2FPlexMetaManager&style=plastic)](https://www.reddit.com/r/PlexMetaManager/)
+[![Reddit](https://img.shields.io/badge/%2Fr%2Fplexmetamanager-e05d44?style=plastic&logo=Reddit&logoColor=white&labelColor=0e8a6a&color=00bc8c)](https://www.reddit.com/r/PlexMetaManager/)
 [![Wiki](https://img.shields.io/readthedocs/plex-meta-manager?color=%2300bc8c&style=plastic)](https://metamanager.wiki)
 [![Translations](https://img.shields.io/weblate/progress/plex-meta-manager?color=00bc8c&server=https%3A%2F%2Ftranslations.metamanager.wiki&style=plastic)](https://translations.metamanager.wiki/projects/plex-meta-manager/#languages)
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/meisnate12?color=%238a2be2&style=plastic)](https://github.com/sponsors/meisnate12)
@@ -30,13 +30,19 @@ Transform your media library with Plex Meta Manager and discover its full potent
 
 ### Third-Party Integrations
 
--  Harness the power of Trakt, TMDb, IMDb, Flixpatrol and more to create collections and overlays!
+-  Harness the power of Trakt, TMDb, IMDb and more to create collections and overlays!
 -  Integrate with Sonarr and Radarr to automate your library growth.
 
 ### And More!
 
 -  We're constantly working on new features to take your library management experience to the next level.
 -  Consider sponsoring the project to allow us to continue building great features for you!
+
+## Demo Video
+
+The below YouTube video has been created by one of our community members to showcase some of the things that Plex Meta Manager can do for you. 
+
+[![Plex Meta Manager](https://img.youtube.com/vi/nTfCUtKWTYI/0.jpg)](https://www.youtube.com/watch?v=nTfCUtKWTYI "Plex Meta Manager")
 
 ## Example Plex Meta Manager Libraries 
 
@@ -46,7 +52,7 @@ Here are some examples of the things you can achieve using Plex Meta Manager!
 
 ![Movie Collection Preview](https://metamanager.wiki/en/latest/images/movie-collection-preview.png)
 
-**Example Show Overlays using the [Plex Meta Manager Defaults](https://metamanager.wiki/en/latest/defaults/collections/overlays)** (click to enlarge):
+**Example Show Overlays using the [Plex Meta Manager Defaults](https://metamanager.wiki/en/latest/defaults/overlays)** (click to enlarge):
 
 ![Show Library Preview](https://metamanager.wiki/en/latest/images/show-library-preview.png)
 

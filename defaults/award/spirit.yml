@@ -11,7 +11,7 @@ external_templates:
     collection_section: 130
 
 collections:
-  Spirit Best Feature Winners:
+  Independent Spirit Best Feature Winners:
     variables:
       key: best
     template:
@@ -34,7 +34,7 @@ dynamic_collections:
     sync: true
     data:
       event_id: ev0000349
-      starting: latest-5
+      starting: latest-4
       ending: latest
     title_format: Independent Spirit Awards <<key_name>>
     template:

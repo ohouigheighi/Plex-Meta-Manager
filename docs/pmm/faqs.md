@@ -4,19 +4,19 @@ search:
 ---
 # FAQ & Knowledgebase
 
-This page aims to provide knowledge based on combined user experience, and to answer the frequent questions that we are asked in our 
+This page aims to provide knowledge based on combined user experience, and to answer the frequent questions that we are asked in our [Discord Server](https://metamanager.wiki/en/latest/discord/).
 
 If you have a question that is not answered here, try entering some keywords into the search bar above, or join our [Discord Server](https://metamanager.wiki/en/latest/discord/).
 
 ## Frequently Asked Questions
 
-This sections aims to answer the most commonly asked questions that users have.
+This section aims to answer the most commonly asked questions that users have.
 
 ### PMM Versions & Updating
 
-The commands here should work in any terminal on the respective platforms, but that can't be guaranteed.  If you know shortcuts for some of these things, go ahead and use them.  For example, in many terminals, `cd ~/Plex-Meta-Manager` is the same as `cd /Users/YOUR_USERNAME/Plex-Meta-Manager`.  
+The commands here should work in any terminal on the respective platforms, but that can't be guaranteed. If you know shortcuts for some of these things, go ahead and use them. For example, in many terminals, `cd ~/Plex-Meta-Manager` is the same as `cd /Users/YOUR_USERNAME/Plex-Meta-Manager`.  
 
-Your PMM installation may not be located at the paths referenced below.  These are the paths used in the walkthroughs in this documentation, so if you installed it somewhere else you will have to change the path[s] to reflect your system and the choices you made during installation.
+Your PMM installation may not be located at the paths referenced below. These are the paths used in the walkthroughs in this documentation, so if you installed it somewhere else you will have to change the path[s] to reflect your system and the choices you made during installation.
 
 ??? question "How do I update to the latest version of Plex Meta Manager?"
 
@@ -36,7 +36,7 @@ Your PMM installation may not be located at the paths referenced below.  These a
             git stash
             git stash clear
 
-        Will reset any changes you have made to PMM-owned files [YOUR CONFIG FILES ARE NOT AFFECTED].  You shouldn't be doing this, so typically this will not lose any of your work.  If you have done this, the assumption is that you know enough about `git` to know how to prevent that from happening.
+        Will reset any changes you have made to PMM-owned files [YOUR CONFIG FILES ARE NOT AFFECTED]. You shouldn't be doing this, so typically this will not lose any of your work. If you have done this, the assumption is that you know enough about `git` to know how to prevent that from happening.
 
     
     === ":fontawesome-brands-apple: macOS"
@@ -55,7 +55,7 @@ Your PMM installation may not be located at the paths referenced below.  These a
             git stash
             git stash clear
 
-        Will reset any changes you have made to PMM-owned files [YOUR CONFIG FILES ARE NOT AFFECTED].  You shouldn't be doing this, so typically this will not lose any of your work.  If you have done this, the assumption is that you know enough about `git` to know how to prevent that from happening.
+        Will reset any changes you have made to PMM-owned files [YOUR CONFIG FILES ARE NOT AFFECTED]. You shouldn't be doing this, so typically this will not lose any of your work. If you have done this, the assumption is that you know enough about `git` to know how to prevent that from happening.
 
     === ":fontawesome-brands-windows: Windows"
     
@@ -74,7 +74,7 @@ Your PMM installation may not be located at the paths referenced below.  These a
             git stash
             git stash clear
 
-        Will reset any changes you have made to PMM-owned files [YOUR CONFIG FILES ARE NOT AFFECTED].  You shouldn't be doing this, so typically this will not lose any of your work.  If you have done this, the assumption is that you know enough about `git` to know how to prevent that from happening.
+        Will reset any changes you have made to PMM-owned files [YOUR CONFIG FILES ARE NOT AFFECTED]. You shouldn't be doing this, so typically this will not lose any of your work. If you have done this, the assumption is that you know enough about `git` to know how to prevent that from happening.
 
     === ":fontawesome-brands-docker: Docker"
     
@@ -108,7 +108,7 @@ Your PMM installation may not be located at the paths referenced below.  These a
             git stash
             git stash clear
 
-        Will reset any changes you have made to PMM-owned files [YOUR CONFIG FILES ARE NOT AFFECTED].  You shouldn't be doing this, so typically this will not lose any of your work.  If you have done this, the assumption is that you know enough about `git` to know how to prevent that from happening.
+        Will reset any changes you have made to PMM-owned files [YOUR CONFIG FILES ARE NOT AFFECTED]. You shouldn't be doing this, so typically this will not lose any of your work. If you have done this, the assumption is that you know enough about `git` to know how to prevent that from happening.
 
     === ":fontawesome-brands-apple: macOS"
     
@@ -127,7 +127,7 @@ Your PMM installation may not be located at the paths referenced below.  These a
             git stash
             git stash clear
 
-        Will reset any changes you have made to PMM-owned files [YOUR CONFIG FILES ARE NOT AFFECTED].  You shouldn't be doing this, so typically this will not lose any of your work.  If you have done this, the assumption is that you know enough about `git` to know how to prevent that from happening.
+        Will reset any changes you have made to PMM-owned files [YOUR CONFIG FILES ARE NOT AFFECTED]. You shouldn't be doing this, so typically this will not lose any of your work. If you have done this, the assumption is that you know enough about `git` to know how to prevent that from happening.
 
     === ":fontawesome-brands-windows: Windows"
     
@@ -147,7 +147,7 @@ Your PMM installation may not be located at the paths referenced below.  These a
             git stash
             git stash clear
 
-        Will reset any changes you have made to PMM-owned files [YOUR CONFIG FILES ARE NOT AFFECTED].  You shouldn't be doing this, so typically this will not lose any of your work.  If you have done this, the assumption is that you know enough about `git` to know how to prevent that from happening.
+        Will reset any changes you have made to PMM-owned files [YOUR CONFIG FILES ARE NOT AFFECTED]. You shouldn't be doing this, so typically this will not lose any of your work. If you have done this, the assumption is that you know enough about `git` to know how to prevent that from happening.
 
     === ":fontawesome-brands-docker: Docker"
     
@@ -179,7 +179,7 @@ Your PMM installation may not be located at the paths referenced below.  These a
             git stash
             git stash clear
 
-        Will reset any changes you have made to PMM-owned files [YOUR CONFIG FILES ARE NOT AFFECTED].  You shouldn't be doing this, so typically this will not lose any of your work.  If you have done this, the assumption is that you know enough about `git` to know how to prevent that from happening.
+        Will reset any changes you have made to PMM-owned files [YOUR CONFIG FILES ARE NOT AFFECTED]. You shouldn't be doing this, so typically this will not lose any of your work. If you have done this, the assumption is that you know enough about `git` to know how to prevent that from happening.
 
     === ":fontawesome-brands-apple: macOS"
     
@@ -198,7 +198,7 @@ Your PMM installation may not be located at the paths referenced below.  These a
             git stash
             git stash clear
 
-        Will reset any changes you have made to PMM-owned files [YOUR CONFIG FILES ARE NOT AFFECTED].  You shouldn't be doing this, so typically this will not lose any of your work.  If you have done this, the assumption is that you know enough about `git` to know how to prevent that from happening.
+        Will reset any changes you have made to PMM-owned files [YOUR CONFIG FILES ARE NOT AFFECTED]. You shouldn't be doing this, so typically this will not lose any of your work. If you have done this, the assumption is that you know enough about `git` to know how to prevent that from happening.
 
     === ":fontawesome-brands-windows: Windows"
     
@@ -218,7 +218,7 @@ Your PMM installation may not be located at the paths referenced below.  These a
             git stash
             git stash clear
 
-        Will reset any changes you have made to PMM-owned files [YOUR CONFIG FILES ARE NOT AFFECTED].  You shouldn't be doing this, so typically this will not lose any of your work.  If you have done this, the assumption is that you know enough about `git` to know how to prevent that from happening.
+        Will reset any changes you have made to PMM-owned files [YOUR CONFIG FILES ARE NOT AFFECTED]. You shouldn't be doing this, so typically this will not lose any of your work. If you have done this, the assumption is that you know enough about `git` to know how to prevent that from happening.
 
     === ":fontawesome-brands-docker: Docker"
     
@@ -249,7 +249,7 @@ Your PMM installation may not be located at the paths referenced below.  These a
             git stash
             git stash clear
 
-        Will reset any changes you have made to PMM-owned files [YOUR CONFIG FILES ARE NOT AFFECTED].  You shouldn't be doing this, so typically this will not lose any of your work.  If you have done this, the assumption is that you know enough about `git` to know how to prevent that from happening.
+        Will reset any changes you have made to PMM-owned files [YOUR CONFIG FILES ARE NOT AFFECTED]. You shouldn't be doing this, so typically this will not lose any of your work. If you have done this, the assumption is that you know enough about `git` to know how to prevent that from happening.
 
     === ":fontawesome-brands-apple: macOS"
     
@@ -268,7 +268,7 @@ Your PMM installation may not be located at the paths referenced below.  These a
             git stash
             git stash clear
 
-        Will reset any changes you have made to PMM-owned files [YOUR CONFIG FILES ARE NOT AFFECTED].  You shouldn't be doing this, so typically this will not lose any of your work.  If you have done this, the assumption is that you know enough about `git` to know how to prevent that from happening.
+        Will reset any changes you have made to PMM-owned files [YOUR CONFIG FILES ARE NOT AFFECTED]. You shouldn't be doing this, so typically this will not lose any of your work. If you have done this, the assumption is that you know enough about `git` to know how to prevent that from happening.
 
     === ":fontawesome-brands-windows: Windows"
     
@@ -288,7 +288,7 @@ Your PMM installation may not be located at the paths referenced below.  These a
             git stash
             git stash clear
 
-        Will reset any changes you have made to PMM-owned files [YOUR CONFIG FILES ARE NOT AFFECTED].  You shouldn't be doing this, so typically this will not lose any of your work.  If you have done this, the assumption is that you know enough about `git` to know how to prevent that from happening.
+        Will reset any changes you have made to PMM-owned files [YOUR CONFIG FILES ARE NOT AFFECTED]. You shouldn't be doing this, so typically this will not lose any of your work. If you have done this, the assumption is that you know enough about `git` to know how to prevent that from happening.
 
     === ":fontawesome-brands-docker: Docker"
     
@@ -304,7 +304,7 @@ Your PMM installation may not be located at the paths referenced below.  These a
 
 ??? question "Any tips on increasing PMM performance?"
 
-    Use PMM Caching where possible, this allows PMM to temporarily store commonly-used information so that it can be retrieved more efficiently. There are [multipe things](https://metamanager.wiki/en/latest/search.html?q=cache&check_keywords=yes&area=default) that can be cached within PMM.
+    Use PMM Caching where possible, this allows PMM to temporarily store commonly-used information so that it can be retrieved more efficiently. There are [multiple things](https://metamanager.wiki/en/latest/search.html?q=cache&check_keywords=yes&area=default) that can be cached within PMM.
     
     Run PMM after PLEX Scheduled Tasks, as Plex's API tends to be slower at responding whilst it is performing the tasks. By default, PMM runs at 5AM to avoid the 3-5am window that Plex suggests for Scheduled Tasks.
     
@@ -325,11 +325,11 @@ Your PMM installation may not be located at the paths referenced below.  These a
         - Draw each overlay image on top of the source image
         - save final image to disk
         - Tell Plex to apply new image to the item
-        - Wait for Plex to responsd confirming that the change has been made
+        - Wait for Plex to respond confirming that the change has been made
 
-    The above two points can be greatly exasterbated if PMM has to update every episode within a Show library rather than just the Shows themselves, as there can often be hundreds of thousands of episodes to be updated with mass operations or overlays.
+    The above two points can be greatly exacerbated if PMM has to update every episode within a Show library rather than just the Shows themselves, as there can often be hundreds of thousands of episodes to be updated with mass operations or overlays.
 
-    Additionally, some collections requires a lot of computing resource to determine the critera of the collections that are to be made. This is commonly seen in the Defaults files for Actor/Director/Producer/Writer which need to get the crew information for each of the movies/shows within your library, and then calculate which ones appear the most to find out which are the most popular. The larger your library, the longer this process will take.
+    Additionally, some collections require a lot of computing resources to determine the critera of the collections that are to be made. This is commonly seen in the Defaults files for Actor/Director/Producer/Writer which need to get the crew information for each of the movies/shows within your library, and then calculate which ones appear the most to find out which are the most popular. The larger your library, the longer this process will take.
 
 
 ??? question "Can I schedule library operations and/or overlays to happen at a different time than collections?"
@@ -366,7 +366,7 @@ Your PMM installation may not be located at the paths referenced below.  These a
 
     A 500 Internal Server Error happens when the server has an unexpected error when responding to an API request.
     
-    There could be any number of reasons why this happens and it depends on what server PMM is talking to although its most likely coming from your Plex Server.
+    There could be any number of reasons why this happens and it depends on what server PMM is talking to although it's most likely coming from your Plex Server.
     
     Most of the time these errors need to be resolved by changing something specific to your set up but some do come up that can be fixed (i.e. Plex throws one if you upload a photo larger than 10 MB)
     
@@ -386,7 +386,7 @@ This section aims to provide some insight as to articles/information that we fee
 
 ### PMM 1.20 Release Changes
 
-With the release of PMM 1.20, several changes have taken place that we would like to make you aware of, please read the below document thoroughly!
+With the release of PMM 1.20, several changes have been made. Please read the document below thoroughly!
 
 ??? blank "`metadata_path` and `overlay_path` are now legacy attributes (click to expand).<a class="headerlink" href="#metadata-overlay-path" title="Permanent link">¶</a>"
 
@@ -447,13 +447,14 @@ With the release of PMM 1.20, several changes have taken place that we would lik
       Movies:
         remove_overlays: false
         reapply_overlays: false #(1)!
-        reset_overlays: false
+        # reset_overlays: plex #(2)!
         schedule_overlays: daily
         overlay_files:
           - pmm: audio_codec
     ```
 
     1.  We strongly advise never setting this to `true` as it can cause [Image Bloat](scripts/image-cleanup.md)
+    2.  This is purely an example, you do not need to specify `reset_overlays` or any of these attributes unless you specifically need to use them.
 
 ??? blank "`imdb_list` no longer works for Title or Keyword search URLs (click to expand).<a class="headerlink" href="#imdb-search" title="Permanent link">¶</a>"
 
@@ -485,13 +486,12 @@ With the release of PMM 1.20, several changes have taken place that we would lik
           keyword.any: spy, espionage
     ```
 
-??? blank "FlixPatrol Default File and Builder have been reworked (click to expand).<a class="headerlink" href="#flixpatrol" title="Permanent link">¶</a>"
+??? blank "FlixPatrol Default Files and Builders have been removed (click to expand).<a class="headerlink" href="#flixpatrol" title="Permanent link">¶</a>"
 
     <div id="flixpatrol" />
 
-    Due to FlixPatrol moving a lot of their data behind a paywall, the existing setup no longer works.
-
-    We have reintroduced FlixPatrol as a [Builder](../files/builders/flixpatrol.md) and [PMM Defaults File](../defaults/chart/flixpatrol.md), we recommdend reading the documentation and updating your config/YAML files to suit.
+    Due to FlixPatrol moving a lot of their data behind a paywall and them reworking their pages to remove IMDb IDs and 
+    TMDb IDs the flixpatrol builders and default files have been removed. There currently are no plans to re-add them.
 
 ??? blank "PMM Default `other_award` replaced with individual Award files (click to expand).<a class="headerlink" href="#awards" title="Permanent link">¶</a>"
 

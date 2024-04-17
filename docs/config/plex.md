@@ -20,17 +20,19 @@ plex:
   clean_bundles: true
   empty_trash: true
   optimize: false
+  verify_ssl:
 ```
 
-| Attribute       | Allowed Values                                                          | Default |                  Required                  |
-|:----------------|:------------------------------------------------------------------------|:--------|:------------------------------------------:|
-| `url`           | Plex Server URL<br><strong>Example:</strong> http://192.168.1.12:32400  | N/A     | :fontawesome-solid-circle-check:{ .green } |
-| `token`         | Plex Server Authentication Token                                        | N/A     | :fontawesome-solid-circle-check:{ .green } |
-| `timeout`       | Plex Server Timeout                                                     | 60      |  :fontawesome-solid-circle-xmark:{ .red }  |
-| `db_cache`      | Plex Server Database Cache Size                                         | None    |  :fontawesome-solid-circle-xmark:{ .red }  |
-| `clean_bundles` | Runs Clean Bundles on the Server after all Collection Files are run     | false   |  :fontawesome-solid-circle-xmark:{ .red }  |
-| `empty_trash`   | Runs Empty Trash on the Server after all Collection Files are run       | false   |  :fontawesome-solid-circle-xmark:{ .red }  |
-| `optimize`      | Runs Optimize on the Server after all Collection Files are run          | false   |  :fontawesome-solid-circle-xmark:{ .red }  |
+| Attribute       | Allowed Values                                                                                                                 | Default |                  Required                  |
+|:----------------|:-------------------------------------------------------------------------------------------------------------------------------|:--------|:------------------------------------------:|
+| `url`           | Plex Server URL<br><strong>Example:</strong> http://192.168.1.12:32400                                                         | N/A     | :fontawesome-solid-circle-check:{ .green } |
+| `token`         | Plex Server Authentication Token                                                                                               | N/A     | :fontawesome-solid-circle-check:{ .green } |
+| `timeout`       | Plex Server Timeout                                                                                                            | 60      |  :fontawesome-solid-circle-xmark:{ .red }  |
+| `db_cache`      | Plex Server Database Cache Size                                                                                                | None    |  :fontawesome-solid-circle-xmark:{ .red }  |
+| `clean_bundles` | Runs Clean Bundles on the Server after all Collection Files are run<br>(`true`, `false` or Any [schedule option](schedule.md)) | false   |  :fontawesome-solid-circle-xmark:{ .red }  |
+| `empty_trash`   | Runs Empty Trash on the Server after all Collection Files are run<br>(`true`, `false` or Any [schedule option](schedule.md))   | false   |  :fontawesome-solid-circle-xmark:{ .red }  |
+| `optimize`      | Runs Optimize on the Server after all Collection Files are run<br>(`true`, `false` or Any [schedule option](schedule.md))      | false   |  :fontawesome-solid-circle-xmark:{ .red }  |
+| `verify_ssl`    | Turns SSL verification on/off for only Plex                                                                                    | None    |  :fontawesome-solid-circle-xmark:{ .red }  |
 
 ???+ warning
     

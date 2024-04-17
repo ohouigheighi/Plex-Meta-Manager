@@ -271,7 +271,7 @@ overlays:
       name: backdrop
       back_color: "#00000099"
       back_height: 100
-      vertical_position: top
+      vertical_align: top
     plex_all: true
 ```
 
@@ -298,7 +298,7 @@ overlays:
       name: backdrop
       back_color: "#00000099"
       back_height: 100
-      vertical_position: top
+      vertical_align: top
     plex_all: true
   mytext:
     overlay:
@@ -320,30 +320,91 @@ Note that we have built up on our backdrop overlay that we created in our previo
 
 You can use the item's metadata to determine the text by adding Special Text Variables to your text Overlay.
 
-There are multiple Special Text Variables that can be used when formatting the text. The variables are defined like so `<<name>>` and some can have modifiers like so `<<name$>>` where `$` is the modifier. The available options are:
+Each Special Text Variables has multiple modifiers that can be used to format the text. The variables are defined like this `<<name$>>` where `name` is the Special Text Variable and the modifier is `$`.
 
-| Special Text Variables & Mods                                                                                                                                                                                                                                                                                                                                                                                                         |                   Movies                   |                   Shows                    |                  Seasons                   |                  Episodes                  |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------:|:------------------------------------------:|:------------------------------------------:|:------------------------------------------:|
-| `<<audience_rating>>`: audience rating (`8.7`, `9.0`)<br>`<<audience_rating%>>`: audience rating out of 100 (`87`, `90`)<br>`<<audience_rating#>>`: audience rating removing `.0` as needed (`8.7`, `9`)<br>`<<audience_rating/>>`: audience rating on a 5 point scale (`8.6` shows as `4.3`)                                                                                                                                         | :fontawesome-solid-circle-check:{ .green } | :fontawesome-solid-circle-check:{ .green } |  :fontawesome-solid-circle-xmark:{ .red }  | :fontawesome-solid-circle-check:{ .green } |
-| `<<critic_rating>>`: critic rating (`8.7`, `9.0`)<br>`<<critic_rating%>>`: critic rating out of 100 (`87`, `90`)<br>`<<critic_rating#>>`: critic rating removing `.0` as needed (`8.7`, `9`)<br>`<<critic_rating/>>`: critic rating on a 5 point scale (`8.6` shows as `4.3`)                                                                                                                                                         | :fontawesome-solid-circle-check:{ .green } | :fontawesome-solid-circle-check:{ .green } |  :fontawesome-solid-circle-xmark:{ .red }  | :fontawesome-solid-circle-check:{ .green } |
-| `<<user_rating>>`: user rating (`8.7`, `9.0`)<br>`<<user_rating%>>`: user rating out of 100 (`87`, `90`)<br>`<<user_rating#>>`: user rating removing `.0` as needed (`8.7`, `9`)<br>`<<user_rating/>>`: user rating on a 5 point scale (`8.6` shows as `4.3`)                                                                                                                                                                         | :fontawesome-solid-circle-check:{ .green } | :fontawesome-solid-circle-check:{ .green } | :fontawesome-solid-circle-check:{ .green } | :fontawesome-solid-circle-check:{ .green } |
-| `<<title>>`: Title of the Item<br>`<<titleU>>`: Uppercase Title of the Item<br>`<<titleL>>`Lowercase Title of the Item<br>`<<titleP>>`Proper Title of the Item                                                                                                                                                                                                                                                                        | :fontawesome-solid-circle-check:{ .green } | :fontawesome-solid-circle-check:{ .green } | :fontawesome-solid-circle-check:{ .green } | :fontawesome-solid-circle-check:{ .green } |
-| `<<show_title>>`: Title of the Item's Show<br>`<<show_itleU>>`: Uppercase Title of the Item's Show<br>`<<show_titleL>>`Lowercase Title of the Item's Show<br>`<<show_titleP>>`Proper Title of the Item's Show                                                                                                                                                                                                                         |  :fontawesome-solid-circle-xmark:{ .red }  |  :fontawesome-solid-circle-xmark:{ .red }  | :fontawesome-solid-circle-check:{ .green } | :fontawesome-solid-circle-check:{ .green } |
-| `<<season_title>>`: Title of the Item's Season<br>`<<season_titleU>>`: Uppercase Title of the Item's Season<br>`<<season_titleL>>`Lowercase title of the Item's Season<br>`<<season_titleP>>`Proper title of the Item's Season                                                                                                                                                                                                        |  :fontawesome-solid-circle-xmark:{ .red }  |  :fontawesome-solid-circle-xmark:{ .red }  |  :fontawesome-solid-circle-xmark:{ .red }  | :fontawesome-solid-circle-check:{ .green } |
-| `<<original_title>>`: Original Title of the Item<br>`<<original_titleU>>`: Original Title of the Item<br>`<<original_titleL>>`Lowercase Original Title of the Item<br>`<<original_titleP>>`Proper Original Title of the Item                                                                                                                                                                                                          | :fontawesome-solid-circle-check:{ .green } | :fontawesome-solid-circle-check:{ .green } |  :fontawesome-solid-circle-xmark:{ .red }  |  :fontawesome-solid-circle-xmark:{ .red }  |
-| `<<edition>>`: Edition of the Item<br>`<<editionU>>`: Uppercase Edition of the Item<br>`<<editionL>>`Lowercase Edition of the Item<br>`<<editionP>>`Proper Edition of the Item                                                                                                                                                                                                                                                        | :fontawesome-solid-circle-check:{ .green } |  :fontawesome-solid-circle-xmark:{ .red }  |  :fontawesome-solid-circle-xmark:{ .red }  |  :fontawesome-solid-circle-xmark:{ .red }  |
-| `<<content_rating>>`: Content Rating of the Item<br>`<<content_ratingU>>`: Uppercase Content Rating of the Item<br>`<<content_ratingL>>`Lowercase Content Rating of the Item<br>`<<content_ratingP>>`Proper Content Rating of the Item                                                                                                                                                                                                | :fontawesome-solid-circle-check:{ .green } | :fontawesome-solid-circle-check:{ .green } |  :fontawesome-solid-circle-xmark:{ .red }  | :fontawesome-solid-circle-check:{ .green } |
-| `<<episode_count>>`: Number of Episodes (`1`)<br>`<<episode_countW>>`: Number of Episodes As Words (`One`)<br>`<<episode_countWU>>`: Number of Episodes As Uppercase Words (`ONE`)<br>`<<episode_countWL>>`: Number of Episodes As Lowercase Words (`one`)<br>`<<episode_count0>>`: Number of Episodes With 10s Padding (`01`)<br>`<<episode_count00>>`: Number of Episodes With 100s Padding (`001`)                                 |  :fontawesome-solid-circle-xmark:{ .red }  | :fontawesome-solid-circle-check:{ .green } | :fontawesome-solid-circle-check:{ .green } |  :fontawesome-solid-circle-xmark:{ .red }  |
-| `<<season_number>>`: Season Number (`1`)<br>`<<season_numberW>>`: Season Number As Words (`One`)<br>`<<season_numberWU>>`: Season Number As Uppercase Words (`ONE`)<br>`<<season_numberWL>>`: Season Number As Lowercase Words (`one`)<br>`<<season_number0>>`: Season Number With 10s Padding (`01`)<br>`<<season_number00>>`: Season Number With 100s Padding (`001`)                                                               |  :fontawesome-solid-circle-xmark:{ .red }  |  :fontawesome-solid-circle-xmark:{ .red }  | :fontawesome-solid-circle-check:{ .green } | :fontawesome-solid-circle-check:{ .green } |
-| `<<episode_number>>`: Episode Number (`1`)<br>`<<episode_numberW>>`: Episode Number As Words (`One`)<br>`<<episode_numberWU>>`: Episode Number As Uppercase Words (`One`)<br>`<<episode_numberWL>>`: Episode Number As Lowercase Words (`one`)<br>`<<episode_number0>>`: Episode Number With 10s Padding (`01`)<br>`<<episode_number00>>`: Episode Number With 100s Padding (`001`)                                                   |  :fontawesome-solid-circle-xmark:{ .red }  |  :fontawesome-solid-circle-xmark:{ .red }  |  :fontawesome-solid-circle-xmark:{ .red }  | :fontawesome-solid-circle-check:{ .green } |
-| `<<versions>>`: Number of Versions of the Item (`1`)<br>`<<versionsW>>`: Number of Versions of the Item As Words (`One`)<br>`<<versionsWO>>`: Number of Versions of the Item As Uppercase Words (`ONE`)<br>`<<versionsWL>>`: Number of Versions of the Item As Words (`one`)<br>`<<versions0>>`: Number of Versions of the Item With 10s Padding (`01`)<br>`<<versions00>>`: Number of Versions of the Item With 100s Padding (`001`) | :fontawesome-solid-circle-check:{ .green } |  :fontawesome-solid-circle-xmark:{ .red }  |  :fontawesome-solid-circle-xmark:{ .red }  | :fontawesome-solid-circle-check:{ .green } |
-| `<<runtime>>`: Complete Runtime of the Item in minutes (`150`)<br>`<<runtimeH>>`: Hours in runtime of the Item (`2`)<br>`<<runtimeM>>`: Minutes remaining in the hour in the runtime of the Item (`30`)<br>**Show and Season use average Episode Runtime.**                                                                                                                                                                           | :fontawesome-solid-circle-check:{ .green } | :fontawesome-solid-circle-check:{ .green } | :fontawesome-solid-circle-check:{ .green } | :fontawesome-solid-circle-check:{ .green } |
-| `<<bitrate>>`: Bitrate of the first media file for an item.<br>`<<bitrateH>>`: Bitrate of the media file with the highest bitrate<br>`<<bitrateL>>`: Bitrate of the media file with the lowest bitrate                                                                                                                                                                                                                                | :fontawesome-solid-circle-check:{ .green } |  :fontawesome-solid-circle-xmark:{ .red }  |  :fontawesome-solid-circle-xmark:{ .red }  | :fontawesome-solid-circle-check:{ .green } |
-| `<<originally_available>>`: Original Available Date of the Item<br>`<<originally_available[FORMAT]>>`: Original Available Date of the Item in the given format. [Format Options](https://strftime.org/)                                                                                                                                                                                                                               | :fontawesome-solid-circle-check:{ .green } | :fontawesome-solid-circle-check:{ .green } |  :fontawesome-solid-circle-xmark:{ .red }  | :fontawesome-solid-circle-check:{ .green } |
+##### Special Rating Text
 
-???+ tip
+| Variable                      | Description                             | Item Types                                  |
+|:------------------------------|:----------------------------------------|:--------------------------------------------|
+| `audience_rating`             | Plex Audience Rating                    | `Movies`, `Shows`, or `Episodes`            |
+| `critic_rating`               | Plex Critic Rating                      | `Movies`, `Shows`, or `Episodes`            |
+| `user_rating`                 | Plex User Rating                        | `Movies`, `Shows`, `Seasons`, or `Episodes` |
+| `tmdb_rating`                 | TMDb Rating                             | `Movies`, `Shows`, `Seasons`, or `Episodes` |
+| `imdb_rating`                 | IMDb Rating                             | `Movies`, `Shows`, or `Episodes`            |
+| `trakt_user_rating`           | Trakt User Rating                       | `Movies` or `Shows`                         |
+| `omdb_rating`                 | OMDb Rating                             | `Movies` or `Shows`                         |
+| `mdb_rating`                  | MDbList Rating                          | `Movies` or `Shows`                         |
+| `mdb_average_rating`          | MDbList Average Rating                  | `Movies` or `Shows`                         |
+| `mdb_imdb_rating`             | MDbList IMDb Rating                     | `Movies` or `Shows`                         |
+| `mdb_metacritic_rating`       | MDbList Metacritic Rating               | `Movies` or `Shows`                         |
+| `mdb_metacriticuser_rating`   | MDbList Metacritic User Rating          | `Movies` or `Shows`                         |
+| `mdb_trakt_rating`            | MDbList Trakt Rating                    | `Movies` or `Shows`                         |
+| `mdb_tomatoes_rating`         | MDbList Rotten Tomatoes Rating          | `Movies` or `Shows`                         |
+| `mdb_tomatoesaudience_rating` | MDbList Rotten Tomatoes Audience Rating | `Movies` or `Shows`                         |
+| `mdb_tmdb_rating`             | MDbList TMDb Rating                     | `Movies` or `Shows`                         |
+| `mdb_letterboxd_rating`       | MDbList Letterboxd Rating               | `Movies` or `Shows`                         |
+| `mdb_myanimelist_rating`      | MDbList MyAnimeList Rating              | `Movies` or `Shows`                         |
+| `anidb_rating`                | AniDB Rating                            | `Movies` or `Shows`                         |
+| `anidb_average_rating`        | AniDB Average Rating                    | `Movies` or `Shows`                         |
+| `anidb_score_rating`          | AniDB Score Rating                      | `Movies` or `Shows`                         |
+| `mal_rating`                  | MyAnimeList Rating                      | `Movies` or `Shows`                         |
 
-    You can use the `mass_audience_rating_update` or `mass_critic_rating_update` [Library Operation](../config/operations.md) to update your plex ratings to various services like `tmdb`, `imdb`, `mdb`, `metacritic`, `letterboxd` and many more.
+??? tip "Special Rating Text Modifiers"
+
+    | Modifier | Description                                        | Example                                    |
+    |:--------:|:---------------------------------------------------|:-------------------------------------------|
+    |  `None`  | Rating on a 10 point scale                         | `8.7`, `9.0`                               |
+    |   `%`    | Rating out of 100                                  | `87`, `90`                                 |
+    |   `#`    | Rating on a 10 point scale removing `.0` as needed | `8.7`, `9`                                 |
+    |   `/`    | Rating on a 5 point scale                          | `8.6` shows as `4.3`, `9.0` shows as `4.5` |
+
+##### Special String Text
+
+| Variable         | Description                | Item Types                                  |
+|:-----------------|:---------------------------|:--------------------------------------------|
+| `title`          | Item's Title               | `Movies`, `Shows`, `Seasons`, or `Episodes` |
+| `show_title`     | Item's Parent Show Title   | `Seasons` or `Episodes`                     |
+| `season_title`   | Item's Parent Season Title | `Episodes`                                  |
+| `original_title` | Item's Original Title      | `Movies` or `Shows`                         |
+| `edition`        | Item's Edition             | `Movies`                                    |
+| `content_rating` | Item's Content Rating      | `Movies`, `Shows`, or `Episodes`            |
+
+??? tip "Special String Text Modifiers"
+
+    | Modifier | Description                            |
+    |:--------:|:---------------------------------------|
+    |  `None`  | Exact Text                             |
+    |   `U`    | Text with the first letter Capitalized |
+    |   `L`    | Text with the first letter Lowercase   |
+    |   `P`    | Text with most words Capitalized       |
+
+##### Special Number Text
+
+| Variable         | Description                    | Item Types              |
+|:-----------------|:-------------------------------|:------------------------|
+| `episode_count`  | Number of Episodes             | `Shows` or `Seasons`    |
+| `season_number`  | Season Number                  | `Seasons` or `Episodes` |
+| `episode_number` | Episode Number                 | `Episodes`              |
+| `versions`       | Number of Versions of the Item | `Movies` or `Episodes`  |
+
+??? tip "Special Number Text Modifiers"
+
+    | Modifier | Description               | Example |
+    |:--------:|:--------------------------|:-------:|
+    |  `None`  | Exact Number              |   `1`   |
+    |   `W`    | Number as Words           |  `One`  |
+    |   `WU`   | Number as Uppercase Words |  `ONE`  |
+    |   `WL`   | Number as Lowercase Words |  `one`  |
+    |   `0`    | Number with 10s Padding   |  `01`   |
+    |   `00`   | Number with 100s Padding  |  `001`  |
+
+##### Other Special Text
+
+| Special Text Variables & Mods                                                                                                                                                                                                                                                                                                                                                                                                                 | Item Types                                  |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------|
+| `<<runtime>>`: Complete Runtime of the Item in minutes (`150`)<br>`<<runtimeH>>`: Hours in runtime of the Item (`2`)<br>`<<runtimeM>>`: Minutes remaining in the hour in the runtime of the Item (`30`)<br>**Show and Season use average Episode Runtime.**                                                                                                                                                                                   | `Movies`, `Shows`, `Seasons`, or `Episodes` |
+| `<<bitrate>>`: Bitrate of the first media file for an item.<br>`<<bitrateH>>`: Bitrate of the media file with the highest bitrate<br>`<<bitrateL>>`: Bitrate of the media file with the lowest bitrate                                                                                                                                                                                                                                        | `Movies` or `Episodes`                      |
+| `<<originally_available>>`: Original Available Date of the Item<br>`<<originally_available[FORMAT]>>`: Original Available Date of the Item in the given format. [Format Options](https://strftime.org/)                                                                                                                                                                                                                                       | `Movies`, `Shows`, or `Episodes`            |
 
 ```yaml
 overlays:
@@ -352,7 +413,7 @@ overlays:
       name: backdrop
       back_color: "#00000099"
       back_height: 100
-      vertical_position: top
+      vertical_align: top
     plex_all: true
   mytext:
     overlay:
@@ -383,7 +444,7 @@ overlays:
       name: backdrop
       back_color: "#00000099"
       back_height: 100
-      vertical_position: top
+      vertical_align: top
     plex_all: true
   mytext:
     overlay:
@@ -408,7 +469,7 @@ overlays:
       name: backdrop
       back_color: "#00000099"
       back_height: 100
-      vertical_position: top
+      vertical_align: top
     plex_all: true
   season_episode_info:
     builder_level: episode

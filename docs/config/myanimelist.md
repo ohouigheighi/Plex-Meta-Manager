@@ -124,13 +124,9 @@ To authenticate MyAnimeList the first time, you need run the container with the 
 OAuth flow mentioned above. Once you have the MyAnimeList authentication data saved into the YAML, you'll be able to run 
 the container normally.
 
-## Online Authorization Script
+## Online Authorization
 
-Plex Meta Manager requires interactive mode to be able to enter the Client ID and Client Secret. Some systems (namely 
-NAS) make this difficult to accomplish. Chazlarson has developed an online script that can be run to generate the MAL 
-and Trakt authentication outside of Plex Meta Manager and then paste the end-result directly into the configuration 
-file.
-
-The Online Auth tool can be found [here](https://replit.com/@chazlarson/MALAuth).
-
-Simply press the play button, wait a little bit, and then follow the on-screen prompts.
+{%    
+  include-markdown "./auth.md"
+  start="# Trakt and MyAnimeList Authentication"
+%}
