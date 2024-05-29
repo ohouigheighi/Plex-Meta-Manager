@@ -1,76 +1,87 @@
-# SLOBO PLEX MEDIA SERVER || PLEX META MANAGER (PMM)
+## This file is a template remove the .template to use the file
 
-libraries:                       # This is called out once within the config.yml file
-  Movies (m):                        # These are names of libraries in your Plex
+libraries:                           # This is called out once within the config.yml file
+  Movies (m):                            # These are names of libraries in your Plex
     sync_mode: sync
-    metadata_path:
-    - file: config/libraries/Movies.yml
-    - pmm: basic                 # This is a file within PMM's defaults folder
-    - pmm: imdb
-    - pmm: studio
-      asset_directory: C:\Users\muelm\.data\Plex-Meta-Manager\assets\studio
-    - pmm: genre
-      asset_directory: C:\Users\muelm\.data\Plex-Meta-Manager\assets\genre
-      template_variables:
-        use_separator: false
-        exclude:
-        - Adult
-    - pmm: actor
-      asset_directory: C:\Users\muelm\.data\Plex-Meta-Manager\assets\actors
+    report_path: ../../.data/Plex-Meta-Manager/reports/Movies (m) Report.yml
+    remove_overlays: false           # Set this to true to remove all overlays
+    collection_files:
+    - default: basic                 # This is a file within Kometa's defaults folder
+    - default: imdb                  # This is a file within Kometa's defaults folder
       # see the wiki for how to use local files, folders, URLs, or files from git
-    overlay_path:
-    - file: C:\Users\muelm\.data\Plex-Meta-Manager\overlays\Movies.yml
-    - remove_overlays: false     # Set this to true to remove all overlays
-    - pmm: ribbon                # This is a file within PMM's defaults folder
+    overlay_files:
+    - default: ribbon                # This is a file within Kometa's defaults folder
+  Movies 4k (m):                            # These are names of libraries in your Plex
+    sync_mode: sync
+    report_path: ../../.data/Plex-Meta-Manager/reports/Movies 4k (m) Report.yml
+    remove_overlays: false           # Set this to true to remove all overlays
+    collection_files:
+    - default: basic                 # This is a file within Kometa's defaults folder
+    - default: imdb                  # This is a file within Kometa's defaults folder
       # see the wiki for how to use local files, folders, URLs, or files from git
-    report_path: C:\Users\muelm\.data\Plex-Meta-Manager\reports\Movies
+    overlays:
+      4K:
+        plex_search:
+          all:
+            resolution: 4K
+    overlay_files:
+    - default: ribbon                # This is a file within Kometa's defaults folder
+      # see the wiki for how to use local files, folders, URLs, or files from git
+      # see the wiki for how to use local files, folders, URLs, or files from git
+  Kids Movies (m):                            # These are names of libraries in your Plex
+    remove_overlays: false           # Set this to true to remove all overlays
+    collection_files:
+    - default: basic                 # This is a file within Kometa's defaults folder
+    - default: imdb                  # This is a file within Kometa's defaults folder
+      # see the wiki for how to use local files, folders, URLs, or files from git
+    overlay_files:
+    - default: ribbon                # This is a file within Kometa's defaults folder
+      # see the wiki for how to use local files, folders, URLs, or files from git
+      # see the wiki for how to use local files, folders, URLs, or files from git
   TV Shows (m):
-    metadata_path:
-    - file: C:\Users\muelm\.data\Plex-Meta-Manager\overlays\TV Shows.yml
-    - pmm: basic                 # This is a file within PMM's defaults folder
-    - pmm: imdb
+    remove_overlays: false           # Set this to true to remove all overlays
+    collection_files:
+    - default: basic                 # This is a file within Kometa's defaults folder
+    - default: imdb                  # This is a file within Kometa's defaults folder
       # see the wiki for how to use local files, folders, URLs, or files from git
-    overlay_path:
-    # - file: C:\Users\muelm\.data\Plex-Meta-Manager\overlays\TV Shows-overlays.yml
-    - remove_overlays: false     # Set this to true to remove all overlays
-    - pmm: ribbon                # This is a file within PMM's defaults folder
+    overlay_files:
+    - default: ribbon                # This is a file within Kometa's defaults folder
       # see the wiki for how to use local files, folders, URLs, or files from git
-    report_path: C:\Users\muelm\.data\Plex-Meta-Manager\reports\TV Shows
-  Kids Movies (m):                        # These are names of libraries in your Plex
-    metadata_path:
-    - file: config/libraries/Kids Movies.yml
-    - pmm: basic                 # This is a file within PMM's defaults folder
-    - pmm: imdb                  # This is a file within PMM's defaults folder
-    - pmm: studio
-      # see the wiki for how to use local files, folders, URLs, or files from git
-    overlay_path:
-    # - file: C:\Users\muelm\.data\Plex-Meta-Manager\overlays\Kids Movies-overlays.yml
-    - remove_overlays: false     # Set this to true to remove all overlays
-    - pmm: ribbon                # This is a file within PMM's defaults folder
-      # see the wiki for how to use local files, folders, URLs, or files from git
-    report_path: C:\Users\muelm\.data\Plex-Meta-Manager\reports\Kids Movies
   Kids TV Shows (m):
-    metadata_path:
-    - file: config/libraries/Kids TV Shows.yml
-    - pmm: basic                 # This is a file within PMM's defaults folder
-    - pmm: imdb                  # This is a file within PMM's defaults folder
+    remove_overlays: false           # Set this to true to remove all overlays
+    collection_files:
+    - default: basic                 # This is a file within Kometa's defaults folder
+    - default: imdb                  # This is a file within Kometa's defaults folder
       # see the wiki for how to use local files, folders, URLs, or files from git
-    overlay_path:
-    # - file: C:\Users\muelm\.data\Plex-Meta-Manager\overlays\Kids TV Shows-overlays.yml
-    - remove_overlays: false     # Set this to true to remove all overlays
-    - pmm: ribbon                # This is a file within PMM's defaults folder
-    report_path: C:\Users\muelm\.data\Plex-Meta-Manager\reports\Kids TV Shows
-  Music (m):
-    metadata_path:
-    - file: config/Music.yml     # This is a local file THAT YOU MIGHT CREATE
+    overlay_files:
+    - default: ribbon                # This is a file within Kometa's defaults folder
+      # see the wiki for how to use local files, folders, URLs, or files from git
+  # Anime:
+  #   collection_files:
+  #     - default: basic               # This is a file within Kometa's defaults folder
+  #     - default: anilist             # This is a file within Kometa's defaults folder
+  #     # see the wiki for how to use local files, folders, URLs, or files from git
+  Albums (m):
+    # collection_files:
+    #   - default: Music\Artists                 # This is a file within Kometa's defaults folder
+    #   - default: Music\Albums                  # This is a file within Kometa's defaults folder
+      # - default: Music\Year
+    report_path: ../../.data/Plex-Meta-Manager/reports/Music/Albums Report.yml
+      # - file: config/Music.yml       # This is a local file THAT YOU MIGHT CREATE
 playlist_files:
-- file: C:\Users\muelm\.data\Plex-Meta-Manager\playlists.yml
-- pmm: playlist                    # This is a file within PMM's defaults folder
+- default: playlist                  # This is a file within Kometa's defaults folder
+  template_variables:
+    libraries: Movies (m), TV Shows      # list of libraries that you want the Kometa Defaults playlists to look at
   # see the wiki for how to use local files, folders, URLs, or files from git
 settings:
+  run_order:
+  - operations
+  - metadata
+  - collections
+  - overlays
   cache: true
   cache_expiration: 60
-  # asset_directory: config/assets
+  asset_directory: ../../.data/Plex-Meta-Manager/assets
   asset_folders: true
   asset_depth: 0
   create_asset_folders: true
@@ -89,68 +100,115 @@ settings:
   missing_only_released: false
   only_filter_missing: false
   show_unmanaged: true
+  show_unconfigured: true
   show_filtered: false
-  show_options: false
+  show_options: true
   show_missing: true
   show_missing_assets: true
-  save_report: false
+  save_report: true
   tvdb_language: eng
   ignore_ids:
   ignore_imdb_ids:
   item_refresh_delay: 0
-  playlist_sync_to_user: all
-  playlist_exclude_user:
-  playlist_report: false
-  verify_ssl: false               # changed this
-  custom_repo:
-  check_nightly: false
-  show_unconfigured: true
+  playlist_sync_to_users: all
   playlist_exclude_users:
-  asset_directory:
-  run_order:
-  - operations
-  - metadata
-  - collections
-  - overlays
-webhooks:                        # Can be individually specified per library as well
+  playlist_report: false
+  verify_ssl: true
+  custom_repo:
+  overlay_artwork_filetype: jpg
+  overlay_artwork_quality: 75
+webhooks:                            # Can be individually specified per library as well
   error:
   version:
   run_start:
   run_end:
   changes:
   delete:
-plex:                            # Can be individually specified per library as well; REQUIRED for the script to run
+plex:                                # Can be individually specified per library as well; REQUIRED for the script to run
   url: http://127.0.0.1:32400/
   token: SXj7-Tak2Kxw_59rsYmb
   timeout: 60
-  clean_bundles: true
-  empty_trash: true
-  optimize: true
   db_cache:
-tmdb:                            # REQUIRED for the script to run
+  clean_bundles: false
+  empty_trash: false
+  optimize: false
+  verify_ssl:
+tmdb:                                # REQUIRED for the script to run
   apikey: 505921ccc353c19f56750ca9224f874d
   language: en
   cache_expiration: 60
   region:
-tautulli:                        # Can be individually specified per library as well
-  url: https://127.0.0.1:32500/tautulli
-  apikey: ZSkIuJaeLDo5paqIHgc0c2Sb_sHpZcqd
-  verify_ssl: false
+tautulli:                            # Can be individually specified per library as well
+  url: http://slobo-vectorpro.slbhm:32500/
+  apikey: 0xGve9sV1EopAqsBsyc41SzDu12cqvi_
+  # verify_ssl: false
+github:
+  token: ################################
 omdb:
   apikey: 11bc2e53
   cache_expiration: 60
 mdblist:
   apikey: r6vn1pmhs11kkv3zcpixdil26
   cache_expiration: 60
+# notifiarr:
+#   apikey: ####################################
+# gotify:
+#   url: http://192.168.1.12:80
+#   token: ####################################
+# anidb:                               # Not required for AniDB builders unless you want mature content
+#   username: ######
+#   password: ######
+# radarr:                              # Can be individually specified per library as well
+#   url: http://192.168.1.12:7878
+#   token: ################################
+#   add_missing: false
+#   add_existing: false
+#   upgrade_existing: false
+#   monitor_existing: false
+#   root_folder_path: "S:/Movies"
+#   monitor: true
+#   availability: announced
+#   quality_profile: HD-1080p
+#   tag:
+#   search: false
+#   radarr_path:
+#   plex_path:
+# sonarr:                              # Can be individually specified per library as well
+#   url: http://192.168.1.12:8989
+#   token: ################################
+#   add_missing: false
+#   add_existing: false
+#   upgrade_existing: false
+#   monitor_existing: false
+#   root_folder_path: "S:/TV Shows"
+#   monitor: all
+#   quality_profile: HD-1080p
+#   language_profile: English
+#   series_type: standard
+#   season_folder: true
+#   tag:
+#   search: false
+#   cutoff_search: false
+#   sonarr_path:
+#   plex_path:
 trakt:
   client_id: 1aec3521e7b29253d4ef83b0fecdfd6ad8955085a212e07491b47a173b71c3f6
   client_secret: ed1592abf47fb17e72ee1d2d6611f9bfaf1c89e6e633da513b5a7a0a14c775a4
   pin:
   authorization:
     # everything below is autofilled by the script
-    access_token: 6b92207e25e90f5abe1eab75fcc8caba750b8e1374d0dffd062e4688aed40024
+    access_token: 7fb36d9dff61e3b1e2c633b7ea6c68b8dc6a2164aebbc4b70895f8552512e137
     token_type: Bearer
-    expires_in: 7889238
-    refresh_token: a19743b1efb17f8b8b57b4e1fe8cf30554622ba200823023ec602ad39785e263
+    expires_in: 7889237
+    refresh_token: 759ca9c01d2fe1c5d577d51166b64707b99389e7482698806fd3441bc794fba1
     scope: public
-    created_at: 1709588660
+    created_at: 1715022433
+# mal:
+#   client_id: ####################
+#   client_secret: ####################
+#   authorization:
+#     # everything below is autofilled by the script
+#     access_token:
+#     token_type:
+#     expires_in:
+#     refresh_token:
