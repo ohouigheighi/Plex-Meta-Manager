@@ -71,7 +71,7 @@ libraries:                           # This is called out once within the config
 playlist_files:
 - default: playlist                  # This is a file within Kometa's defaults folder
   template_variables:
-    libraries: Movies (m), TV Shows      # list of libraries that you want the Kometa Defaults playlists to look at
+    libraries: Movies (m), TV Shows (m)      # list of libraries that you want the Kometa Defaults playlists to look at
   # see the wiki for how to use local files, folders, URLs, or files from git
 settings:
   run_order:
