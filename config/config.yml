@@ -3,7 +3,8 @@
 libraries:                           # This is called out once within the config.yml file
   Movies (m):                            # These are names of libraries in your Plex
     sync_mode: sync
-    report_path: ../../.data/Plex-Meta-Manager/reports/Movies (m) Report.yml
+    # report_path: ../../.data/Plex-Meta-Manager/reports/Movies (m) Report.yml
+    report_path: C:\Users\muelm\AppData\Local\Plex Media Server\_kometa_data_\reports\Movies (m) Report.yml
     remove_overlays: false           # Set this to true to remove all overlays
     collection_files:
     - default: basic                 # This is a file within Kometa's defaults folder
@@ -13,7 +14,8 @@ libraries:                           # This is called out once within the config
     - default: ribbon                # This is a file within Kometa's defaults folder
   Movies 4k (m):                            # These are names of libraries in your Plex
     sync_mode: sync
-    report_path: ../../.data/Plex-Meta-Manager/reports/Movies 4k (m) Report.yml
+    # report_path: ../../.data/Plex-Meta-Manager/reports/Movies 4k (m) Report.yml
+    report_path: C:\Users\muelm\AppData\Local\Plex Media Server\_kometa_data_\reports\Movies 4k (m) Report.yml
     remove_overlays: false           # Set this to true to remove all overlays
     collection_files:
     - default: basic                 # This is a file within Kometa's defaults folder
@@ -66,7 +68,8 @@ libraries:                           # This is called out once within the config
     #   - default: Music\Artists                 # This is a file within Kometa's defaults folder
     #   - default: Music\Albums                  # This is a file within Kometa's defaults folder
       # - default: Music\Year
-    report_path: ../../.data/Plex-Meta-Manager/reports/Music/Albums Report.yml
+    # report_path: ../../.data/Plex-Meta-Manager/reports/Music/Albums Report.yml
+    report_path: C:\Users\muelm\AppData\Local\Plex Media Server\_kometa_data_\reports\Music\Albums Report.yml
       # - file: config/Music.yml       # This is a local file THAT YOU MIGHT CREATE
 playlist_files:
 - default: playlist                  # This is a file within Kometa's defaults folder
@@ -81,7 +84,9 @@ settings:
   - overlays
   cache: true
   cache_expiration: 60
-  asset_directory: ../../.data/Plex-Meta-Manager/assets
+  # asset_directory: "../../AppData/Local/Plex Media Server/_kometa_data_/assets"
+  # asset_directory: 'C:\\Users\\muelm\\AppData\\Local\\Plex Media Server\\_kometa_data_\\assets'
+  asset_directory: C:\\Users\\muelm\\AppData\\Local\\Plex\ Media\ Server\\_kometa_data_\\assets
   asset_folders: true
   asset_depth: 0
   create_asset_folders: true
@@ -197,18 +202,9 @@ trakt:
   pin:
   authorization:
     # everything below is autofilled by the script
-    access_token: 7fb36d9dff61e3b1e2c633b7ea6c68b8dc6a2164aebbc4b70895f8552512e137
+    access_token: 330fd96428c61de5eab1b1ebb7487ac4d5400125a5e33df46cf4592c0e6b50cc
     token_type: Bearer
-    expires_in: 7889237
-    refresh_token: 759ca9c01d2fe1c5d577d51166b64707b99389e7482698806fd3441bc794fba1
+    expires_in: 7889238
+    refresh_token: ae4fb6a93f57790538e923f45e11d1811e1d5d87fb9617d6e6139f876f0eb8f0
     scope: public
-    created_at: 1715022433
-# mal:
-#   client_id: ####################
-#   client_secret: ####################
-#   authorization:
-#     # everything below is autofilled by the script
-#     access_token:
-#     token_type:
-#     expires_in:
-#     refresh_token:
+    created_at: 1724621980

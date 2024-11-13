@@ -1,8 +1,105 @@
+IMDb Popular:
+  Movies Added (TMDb IDs):
+    917496: Beetlejuice Beetlejuice
+    533535: Deadpool & Wolverine
+    1114513: Speak No Evil
+    1184918: The Wild Robot
+    877817: Wolfs
+    945961: 'Alien: Romulus'
+    882598: Smile
+    609: Poltergeist
+    948: Halloween
+    466272: Once Upon a Time... in Hollywood
+    4232: Scream
+  Movies Removed (TMDb IDs):
+    957452: The Crow
+    869291: Cuckoo
+    932086: 'Horizon: An American Saga - Chapter 1'
+    1062215: Afraid
+    365177: Borderlands
+    882059: Boy Kills World
+    9495: The Crow
+    1086747: The Watchers
+    261023: Black Mass
+    704239: The Union
+    348: Alien
+    1885: The Karate Kid
+    998846: Back to Black
+    493529: 'Dungeons & Dragons: Honor Among Thieves'
+    639933: The Northman
+    653346: Kingdom of the Planet of the Apes
+    519182: Despicable Me 4
+    1008409: The Bikeriders
+  Movies Missing (TMDb IDs):
+    889737: 'Joker: Folie à Deux (2024)'
+    1034541: Terrifier 3 (2024)
+    933260: The Substance (2024)
+    748230: Salem's Lot (2024)
+    1052280: It's What's Inside (2024)
+    1125510: The Platform 2 (2024)
+    592831: Megalopolis (2024)
+    1120911: Saturday Night (2024)
+    420634: Terrifier (2016)
+    663712: Terrifier 2 (2022)
+    1087822: 'Hellboy: The Crooked Man (2024)'
+    843416: Daddio (2024)
+    619264: The Platform (2019)
+    1182047: The Apprentice (2024)
+    863873: Caddo Lake (2024)
+    1029281: Strange Darling (2024)
+    661539: A Complete Unknown (2024)
+    1097549: Babygirl (2024)
+    1100099: We Live in Time (2024)
+    1190868: V/H/S/Beyond (2024)
+    1108566: Killer Heat (2024)
+    698687: Transformers One (2024)
+    718014: Hold Your Breath (2024)
+    1029235: Azrael (2024)
+    1064213: Anora (2024)
+    1226578: Longlegs (2024)
+    507241: The Killer's Game (2024)
+    974950: Emilia Pérez (2024)
+    426063: Nosferatu (2024)
+    1210794: Trouble (2024)
+    558449: Gladiator II (2024)
+    974576: Conclave (2024)
+    1100782: Smile 2 (2024)
+    10439: Hocus Pocus (1993)
+    1146577: CTRL (2024)
+    1138194: Heretic (2024)
+    807339: Apartment 7A (2024)
+    832964: Lee (2024)
+    1112426: Stree 2 (2024)
+    912649: 'Venom: The Last Dance (2024)'
+    940139: Here (2024)
+    346364: It (2017)
+    959429: Lonely Planet (2024)
+    814889: Never Let Go (2024)
+    989662: A Different Man (2024)
+    402431: Wicked (2024)
+    120: 'The Lord of the Rings: The Fellowship of the Ring (2001)'
+    833339: Speak No Evil (2022)
+    671: Harry Potter and the Philosopher's Stone (2001)
+    785542: The Outrun (2024)
+    947891: My Old Ass (2024)
+    1014661: House of Spoils (2024)
+    1139713: The Radleys (2024)
+    938614: Late Night with the Devil (2024)
+    1360610: The Menendez Brothers (2024)
+    2907: The Addams Family (1991)
+    508883: The Boy and the Heron (2023)
+    346910: The Predator (2018)
+    748167: Uglies (2024)
+    1236419: Piece by Piece (2024)
+    779816: White Bird (2023)
+    98: Gladiator (2000)
+    1042834: Eden (2024)
+    762441: 'A Quiet Place: Day One (2024)'
 IMDb Top 250:
   Movies Missing (TMDb IDs):
     389: 12 Angry Men (1957)
-    424: Schindler's List (1993)
     122: 'The Lord of the Rings: The Return of the King (2003)'
+    424: Schindler's List (1993)
     120: 'The Lord of the Rings: The Fellowship of the Ring (2001)'
     429: The Good, the Bad and the Ugly (1966)
     121: 'The Lord of the Rings: The Two Towers (2002)'
@@ -26,23 +123,23 @@ IMDb Top 250:
     567: Rear Window (1954)
     335: Once Upon a Time in the West (1968)
     901: City Lights (1931)
-    1163258: 12th Fail (2023)
     10681: WALL·E (2008)
+    1163258: 12th Fail (2023)
     582: The Lives of Others (2006)
     599: Sunset Boulevard (1950)
     324857: 'Spider-Man: Into the Spider-Verse (2018)'
     37257: Witness for the Prosecution (1957)
     914: The Great Dictator (1940)
     354912: Coco (2017)
-    670: Oldboy (2003)
     279: Amadeus (1984)
+    670: Oldboy (2003)
     387: Das Boot (1981)
     197: Braveheart (1995)
     128: Princess Mononoke (1997)
     372058: Your Name. (2016)
     12493: High and Low (1963)
-    311: Once Upon a Time in America (1984)
     20453: 3 Idiots (2009)
+    311: Once Upon a Time in America (1984)
     872: Singin' in the Rain (1952)
     517814: Capernaum (2018)
     25237: Come and See (1985)
@@ -53,8 +150,8 @@ IMDb Top 250:
     284: The Apartment (1960)
     46738: Incendies (2010)
     213: North by Northwest (1959)
-    832: M (1931)
     996: Double Indemnity (1944)
+    832: M (1931)
     426: Vertigo (1958)
     194: Amélie (2001)
     14160: Up (2009)
@@ -63,17 +160,17 @@ IMDb Top 250:
     9277: The Sting (1973)
     7508: Like Stars on Earth (2007)
     19: Metropolis (1927)
-    556574: Hamilton (2020)
     2118: L.A. Confidential (1997)
     5156: Bicycle Thieves (1948)
     613: Downfall (2004)
+    556574: Hamilton (2020)
     360814: Dangal (2016)
     938: For a Few Dollars More (1965)
-    239: Some Like It Hot (1959)
     490132: Green Book (2018)
+    239: Some Like It Hot (1959)
+    821: Judgment at Nuremberg (1961)
     10098: The Kid (1921)
     600354: The Father (2020)
-    821: Judgment at Nuremberg (1961)
     705: All About Eve (1950)
     524: Casino (1995)
     11645: Ran (1985)
@@ -84,70 +181,71 @@ IMDb Top 250:
     3090: The Treasure of the Sierra Madre (1948)
     11878: Yojimbo (1961)
     5925: The Great Escape (1963)
-    548: Rashomon (1950)
     4935: Howl's Moving Castle (2004)
     1955: The Elephant Man (1980)
-    829: Chinatown (1974)
+    548: Rashomon (1950)
     521: Dial M for Murder (1954)
+    829: Chinatown (1974)
     770: Gone with the Wind (1939)
-    752: V for Vendetta (2006)
-    100: Lock, Stock and Two Smoking Barrels (1998)
     25376: The Secret in Their Eyes (2009)
+    100: Lock, Stock and Two Smoking Barrels (1998)
     150540: Inside Out (2015)
+    752: V for Vendetta (2006)
     826: The Bridge on the River Kwai (1957)
     508965: Klaus (2019)
-    634649: 'Spider-Man: No Way Home (2021)'
     640: Catch Me If You Can (2002)
     59440: Warrior (2011)
+    634649: 'Spider-Man: No Way Home (2021)'
     13223: Gran Torino (2008)
-    8392: My Neighbor Totoro (1988)
-    70: Million Dollar Baby (2004)
     12445: 'Harry Potter and the Deathly Hallows: Part 2 (2011)'
+    70: Million Dollar Baby (2004)
+    8392: My Neighbor Totoro (1988)
     21334: Children of Heaven (1997)
     665: Ben-Hur (1959)
     76: Before Sunrise (1995)
-    962: The Gold Rush (1925)
+    1118224: Maharaja (2024)
     11423: Memories of Murder (2003)
     7984: In the Name of the Father (1993)
+    962: The Gold Rush (1925)
     265195: Wild Tales (2014)
     11778: The Deer Hunter (1978)
+    2062: Ratatouille (2007)
     961: The General (1926)
-    654: On the Waterfront (1954)
     992: Sherlock Jr. (1924)
     10191: How to Train Your Dragon (2010)
-    1092: The Third Man (1949)
-    204: The Wages of Fear (1953)
+    654: On the Waterfront (1954)
     24238: Mary and Max (2009)
+    204: The Wages of Fear (1953)
     614: Wild Strawberries (1957)
     3083: Mr. Smith Goes to Washington (1939)
-    2062: Ratatouille (2007)
-    18148: Tokyo Story (1953)
-    264644: Room (2015)
-    490: The Seventh Seal (1957)
+    1092: The Third Man (1949)
     263115: Logan (2017)
+    18148: Tokyo Story (1953)
+    490: The Seventh Seal (1957)
+    264644: Room (2015)
     205: Hotel Rwanda (2004)
-    780: The Passion of Joan of Arc (1928)
     406: La Haine (1995)
     80: Before Sunset (2004)
+    780: The Passion of Joan of Arc (1928)
+    855400: Jai Bhim (2021)
     887: The Best Years of Our Lives (1946)
     9552: The Exorcist (1973)
-    855400: Jai Bhim (2021)
     10774: Network (1976)
     28178: "Hachi: A Dog's Tale (2009)"
+    15121: The Sound of Music (1965)
     13393: My Father and My Son (2005)
     290098: The Handmaiden (2016)
-    15121: The Sound of Music (1965)
     198: To Be or Not to Be (1942)
     17295: The Battle of Algiers (1966)
+    10386: The Iron Giant (1999)
     596: The Grapes of Wrath (1940)
     55: Amores Perros (2000)
     223: Rebecca (1940)
-    10386: The Iron Giant (1999)
     50014: The Help (2011)
     3078: It Happened One Night (1934)
-    352173: Drishyam (2015)
-    812: Aladdin (1992)
     117691: Gangs of Wasseypur - Part 1 (2012)
+    352173: Drishyam (2015)
+    655: Paris, Texas (1984)
 IMDb Lowest Rated:
   Movies Missing (TMDb IDs):
     13805: Disaster Movie (2008)
@@ -158,8 +256,8 @@ IMDb Lowest Rated:
     63315: The Hottie & The Nottie (2008)
     11059: House of the Dead (2003)
     10214: Son of the Mask (2005)
-    9760: Epic Movie (2007)
     679844: Radhe (2021)
+    9760: Epic Movie (2007)
     19213: Pledge This! (2006)
     5491: Battlefield Earth (2000)
     12142: Alone in the Dark (2005)
@@ -175,15 +273,15 @@ IMDb Lowest Rated:
     536869: Cats (2019)
     22345: Baby Geniuses (1999)
     10696: Glitter (2001)
-    94365: The Human Centipede 3 (Final Sequence) (2015)
     681887: Cosmic Sin (2021)
+    94365: The Human Centipede 3 (Final Sequence) (2015)
     717728: 'Jeepers Creepers: Reborn (2022)'
     829557: '365 Days: This Day (2022)'
-    26914: Troll 2 (1990)
     168705: BloodRayne (2005)
-    31245: Hobgoblins (1988)
-    876671: The Cost of Deception (2021)
+    26914: Troll 2 (1990)
     980078: 'Winnie the Pooh: Blood and Honey (2023)'
+    876671: The Cost of Deception (2021)
+    31245: Hobgoblins (1988)
     734253: Adipurush (2023)
     495339: 'Enes Batur: Imagination or Reality? (2018)'
     664413: 365 Days (2020)
@@ -191,36 +289,38 @@ IMDb Lowest Rated:
     11535: Rollerball (2002)
     32307: Santa Claus Conquers the Martians (1964)
     439015: Slender Man (2018)
-    11511: Kazaam (1996)
     503129: Student of the Year 2 (2019)
+    11511: Kazaam (1996)
     651571: Breach (2020)
-    8854: Steel (1997)
     603673: Laxmii (2020)
+    8854: Steel (1997)
     485774: The Open House (2018)
-    40264: Vampires Suck (2010)
     225703: The Starving Games (2013)
+    40264: Vampires Suck (2010)
     378236: The Emoji Movie (2017)
     46040: Tees Maar Khan (2010)
     10152: 'Dumb and Dumberer: When Harry Met Lloyd (2003)'
     4258: Scary Movie 5 (2013)
     16780: The Return of the Texas Chainsaw Massacre (1995)
     250551: Gunday (2014)
-    13908: The Master of Disguise (2002)
     415861: Smolensk (2016)
-    14144: Daddy Day Camp (2007)
-    11546: 'Police Academy: Mission to Moscow (1994)'
-    14123: Bratz (2007)
-    5227: Hercules in New York (1970)
-    7916: Far Cry (2008)
+    13908: The Master of Disguise (2002)
     594669: Baaghi 3 (2020)
-    9823: 'Mortal Kombat: Annihilation (1997)'
+    14144: Daddy Day Camp (2007)
+    7916: Far Cry (2008)
+    11546: 'Police Academy: Mission to Moscow (1994)'
+    5227: Hercules in New York (1970)
+    14123: Bratz (2007)
+    829560: The Next 365 Days (2022)
     9544: FearDotCom (2002)
+    9823: 'Mortal Kombat: Annihilation (1997)'
     11867: Barb Wire (1996)
     32302: '3 Ninjas: High Noon at Mega Mountain (1998)'
     351819: Fifty Shades of Black (2016)
     13995: Captain America (1990)
     56288: 'Spy Kids: All the Time in the World (2011)'
     551808: Black Christmas (2019)
+    787163: Liger (2022)
     19139: 'Goal III: Taking on the World (2009)'
     11849: Dungeons & Dragons (2000)
     10253: 'Dragon Wars: D-War (2007)'
@@ -230,10 +330,117 @@ IMDb Lowest Rated:
     6116: Spice World (1997)
     71668: Piranha 3DD (2012)
     5857: I Know Who Killed Me (2007)
-    787163: Liger (2022)
     244688: The Hungover Games (2014)
-    14199: The Adventures of Sharkboy and Lavagirl (2005)
     12177: The Love Guru (2008)
+    14199: The Adventures of Sharkboy and Lavagirl (2005)
     2312: 'In the Name of the King: A Dungeon Siege Tale (2007)'
+    496339: Dabangg 3 (2019)
     74997: The Human Centipede 2 (Full Sequence) (2011)
-    889: The Flintstones in Viva Rock Vegas (2000)
+Marvel Cinematic Universe (Timeline Order):
+  Movies Added (TMDb IDs):
+    533535: Deadpool & Wolverine
+  Movies Missing (TMDb IDs):
+    211387: 'Marvel One-Shot: Agent Carter (2013)'
+    10138: Iron Man 2 (2010)
+    76535: "Marvel One-Shot: A Funny Thing Happened on the Way to Thor's Hammer (2011)"
+    76122: 'Marvel One-Shot: The Consultant (2011)'
+    119569: 'Marvel One-Shot: Item 47 (2012)'
+    253980: 'Marvel One-Shot: All Hail the King (2014)'
+    497698: Black Widow (2021)
+    315635: 'Spider-Man: Homecoming (2017)'
+    284052: Doctor Strange (2016)
+    566525: Shang-Chi and the Legend of the Ten Rings (2021)
+    429617: 'Spider-Man: Far From Home (2019)'
+    634649: 'Spider-Man: No Way Home (2021)'
+    453395: Doctor Strange in the Multiverse of Madness (2022)
+    774752: The Guardians of the Galaxy Holiday Special (2022)
+    822119: 'Captain America: Brave New World (2025)'
+    986056: Thunderbolts* (2025)
+    617127: Blade (2025)
+    617126: 'The Fantastic Four: First Steps (2025)'
+    1003596: 'Avengers: Doomsday (2026)'
+    1003598: 'Avengers: Secret Wars (2027)'
+    1030022: Armor Wars
+    912502: Untitled Shang-Chi Sequel
+DC Animated Universe (Timeline Order):
+  Movies Missing (TMDb IDs):
+    14919: 'Batman: Mask of the Phantasm (1993)'
+    15805: 'Batman & Mr. Freeze: SubZero (1998)'
+    19323: 'Superman: Brainiac Attacks (2006)'
+    21683: 'Batman: Mystery of the Batwoman (2003)'
+    106583: Chase Me (2003)
+    408648: Batman and Harley Quinn (2017)
+    16234: 'Batman Beyond: Return of the Joker (2000)'
+    269246: Batman Beyond (2014)
+Pokémon (Timeline Order):
+  Movies Missing (TMDb IDs):
+    10228: 'Pokémon: The First Movie (1998)'
+    36897: 'Pokémon: Mewtwo Returns (2001)'
+    12599: Pokémon the Movie 2000 (1999)
+    10991: 'Pokémon 3: The Movie (2000)'
+    12600: Pokémon 4Ever (2001)
+    33875: Pokémon Heroes (2002)
+    36218: 'Pokémon: Jirachi - Wish Maker (2003)'
+    34065: 'Pokémon: Destiny Deoxys (2004)'
+    34067: 'Pokémon: Lucario and the Mystery of Mew (2005)'
+    16808: Pokémon Ranger and the Temple of the Sea (2006)
+    25961: 'Pokémon: The Rise of Darkrai (2007)'
+    47292: 'Pokémon: Giratina and the Sky Warrior (2008)'
+    39057: 'Pokémon: Arceus and the Jewel of Life (2009)'
+    50087: 'Pokémon: Zoroark - Master of Illusions (2010)'
+    88557: 'Pokémon the Movie: White - Victini and Zekrom (2011)'
+    115223: 'Pokémon the Movie: Black - Victini and Reshiram (2011)'
+    150213: 'Pokémon the Movie: Kyurem vs. the Sword of Justice (2012)'
+    227679: 'Pokémon the Movie: Genesect and the Legend Awakened (2013)'
+    303903: 'Pokémon the Movie: Diancie and the Cocoon of Destruction (2014)'
+    350499: 'Pokémon the Movie: Hoopa and the Clash of Ages (2015)'
+    382190: 'Pokémon the Movie: Volcanion and the Mechanical Marvel (2016)'
+    436931: 'Pokémon the Movie: I Choose You! (2017)'
+    662708: 'Pokémon the Movie: Secrets of the Jungle (2020)'
+Star Wars (Timeline Order):
+  Movies Missing (TMDb IDs):
+    12180: 'Star Wars: The Clone Wars (2008)'
+    181812: 'Star Wars: The Rise of Skywalker (2019)'
+Star Wars The Clone Wars (Timeline Order):
+  Movies Missing (TMDb IDs):
+    12180: 'Star Wars: The Clone Wars (2008)'
+X-Men (Timeline Order):
+  Movies Added (TMDb IDs):
+    533535: Deadpool & Wolverine
+  Movies Missing (TMDb IDs):
+    49538: 'X-Men: First Class (2011)'
+    127585: 'X-Men: Days of Future Past (2014)'
+    2080: 'X-Men Origins: Wolverine (2009)'
+    320288: Dark Phoenix (2019)
+    246655: 'X-Men: Apocalypse (2016)'
+    36657: X-Men (2000)
+    36658: X2 (2003)
+    36668: 'X-Men: The Last Stand (2006)'
+    76170: The Wolverine (2013)
+    293660: Deadpool (2016)
+    383498: Deadpool 2 (2018)
+    263115: Logan (2017)
+Dragon Ball (Timeline Order):
+  Movies Missing (TMDb IDs):
+    39144: 'Dragon Ball: Curse of the Blood Rubies (1986)'
+    39145: "Dragon Ball: Sleeping Princess in Devil's Castle (1987)"
+    116776: 'Dragon Ball: Mystical Adventure (1988)'
+    39148: 'Dragon Ball: The Path to Power (1996)'
+    28609: 'Dragon Ball Z: Dead Zone (1989)'
+    39323: 'Dragon Ball Z: Bardock - The Father of Goku (1990)'
+    39100: "Dragon Ball Z: The World's Strongest (1990)"
+    39101: 'Dragon Ball Z: The Tree of Might (1990)'
+    39102: 'Dragon Ball Z: Lord Slug (1991)'
+    24752: "Dragon Ball Z: Cooler's Revenge (1991)"
+    39103: 'Dragon Ball Z: The Return of Cooler (1992)'
+    39324: 'Dragon Ball Z: The History of Trunks (1993)'
+    39104: 'Dragon Ball Z: Super Android 13! (1992)'
+    34433: 'Dragon Ball Z: Broly – The Legendary Super Saiyan (1993)'
+    39105: 'Dragon Ball Z: Bojack Unbound (1993)'
+    44251: 'Dragon Ball Z: Broly - Second Coming (1994)'
+    39106: 'Dragon Ball Z: Bio-Broly (1994)'
+    39107: 'Dragon Ball Z: Fusion Reborn (1995)'
+    39108: 'Dragon Ball Z: Wrath of the Dragon (1995)'
+    126963: 'Dragon Ball Z: Battle of Gods (2013)'
+    303857: "Dragon Ball Z: Resurrection 'F' (2015)"
+    18095: "Dragon Ball GT: A Hero's Legacy (1997)"
