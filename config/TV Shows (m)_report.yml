@@ -1,91 +1,77 @@
 IMDb Popular:
-  Shows Added (TVDb IDs):
-    417648: The Penguin
-    411364: Shrinking
-    389492: Monster (2022)
-    403245: Silo
-    358211: What We Do in the Shadows
-    371980: Severance
-  Shows Removed (TVDb IDs):
-    75805: It's Always Sunny in Philadelphia
-    79126: The Wire
   Shows Missing (TVDb IDs):
-    415239: The Diplomat
+    371028: Arcane
+    367118: 'Dune: Prophecy'
+    426501: Cross
+    397424: Landman
+    426866: The Day of the Jackal
     401003: From
     388589: Lioness
-    412429: Agatha All Along
-    429920: Rivals (2024)
-    426866: The Day of the Jackal
-    413062: Disclaimer
-    305288: Stranger Things
-    399909: The Lincoln Lawyer
+    445610: Say Nothing
+    445646: A Man on the Inside
+    415239: The Diplomat
     121361: Game of Thrones
-    371028: Arcane
-    431155: Until I Kill You
-    399959: Only Murders in the Building
-    438580: Territory (2024)
-    427464: 'The Walking Dead: Daryl Dixon'
-    79349: Dexter
-    420600: 'Star Wars: Skeleton Crew'
-    434988: High Potential
-    447811: 'Citadel: Honey Bunny'
+    418182: Bad Sisters
+    413062: Disclaimer
+    425999: Interior Chinatown
+    432832: DAN DA DAN
+    429920: Rivals (2024)
     73762: Grey's Anatomy
-    350665: The Rookie
+    79349: Dexter
+    399909: The Lincoln Lawyer
+    270408: Outlander
+    397950: Cruel Intentions
     75299: The Sopranos
-    434780: Matlock (2024)
-    367118: 'Dune: Prophecy'
-    446180: Teacup
-    446581: Grotesquerie
+    305288: Stranger Things
     428433: Tracker (2024)
+    350665: The Rookie
     153021: The Walking Dead
-    367506: 'The Lord of the Rings: The Rings of Power'
     78901: Supernatural
     75692: 'Law & Order: Special Victims Unit'
+    434988: High Potential
     72108: NCIS
+    399959: Only Murders in the Building
+    435916: St. Denis Medical
+    328534: A.P. Bio
     360115: Prison Break
-    417272: Murder Mindfully
-    73255: House
-    337907: 9-1-1
-    430543: Elsbeth
-    75710: Criminal Minds
     447900: Doctor Odyssey
-    451275: Don't Come Home
-    383275: Squid Game
-    421654: Sweetpea
-    328569: The Resident
-    446065: Beauty in Black
+    412429: Agatha All Along
+    73255: House
     267440: Attack on Titan
-    250487: American Horror Story
-    393269: Tell Me Lies
-    448023: Georgie & Mandy's First Marriage
-    328724: Young Sheldon
-    247808: Suits
-    76568: Gilmore Girls
-    400267: Ghosts (US)
+    429893: Moonflower Murders
+    337907: 9-1-1
     375655: Superman & Lois
-    440843: Paris Has Fallen
-    432782: The Perfect Couple
-    421288: Before (2024)
-    270408: Outlander
-    253463: Black Mirror
-    270915: Peaky Blinders
-    371572: House of the Dragon
-    161511: Shameless (US)
-    164981: Blue Bloods
+    367506: 'The Lord of the Rings: The Rings of Power'
+    75710: Criminal Minds
+    281977: Wolf Hall
+    434780: Matlock (2024)
     80379: The Big Bang Theory
+    420063: Fire Country
+    247808: Suits
+    371572: House of the Dragon
+    430543: Elsbeth
+    328569: The Resident
+    76568: Gilmore Girls
+    253463: Black Mirror
+    400267: Ghosts (US)
     95011: Modern Family
+    161511: Shameless (US)
     80547: Gossip Girl
-    397060: Wednesday
-    423158: Hysteria!
+    164981: Blue Bloods
+    328724: Young Sheldon
+    72158: One Tree Hill
+    270915: Peaky Blinders
+    432782: The Perfect Couple
     338186: Succession
-    81797: One Piece
-    321239: The Handmaid's Tale
-    392573: "ShÅ\x8Dgun"
+    390430: The White Lotus
+    260449: Vikings
+    418934: Based On A True Story
     72368: Law & Order
-    78804: Doctor Who (2005)
+    321239: The Handmaid's Tale
+    393223: 'Alien: Earth'
+    75760: How I Met Your Mother
+    258541: Chicago Fire
 IMDb Top 250:
-  Shows Added (TVDb IDs):
-    417648: The Penguin
   Movies Missing (TMDb IDs):
     1119518: Alchemy of Souls
     1377090: Umbre
@@ -134,9 +120,9 @@ IMDb Top 250:
     338186: Succession
     298868: Pitchers
     72521: The West Wing
-    75853: Monty Python's Flying Circus
     424536: "Frieren: Beyond Journey's End"
     81797: One Piece
+    75853: Monty Python's Flying Circus
     282254: BoJack Horseman
     75932: Fawlty Towers
     248440: Leyla and Mecnun
@@ -145,11 +131,11 @@ IMDb Top 250:
     81472: Dragon Ball Z
     282670: Narcos
     366233: Gullak
-    412432: X-Men '97
-    71046: I, Claudius
     359274: Vinland Saga
-    253463: Black Mirror
+    71046: I, Claudius
+    412432: X-Men '97
     362631: Kota Factory
+    253463: Black Mirror
     281643: Over the Garden Wall
     301078: Answer Me 1988
     270915: Peaky Blinders
@@ -175,8 +161,8 @@ IMDb Top 250:
     368207: Invincible (2021)
     84349: Mahabharat
     79824: Naruto Shippuden
-    77728: Sherlock Holmes (1984)
     74599: Monster
+    77728: Sherlock Holmes (1984)
     305288: Stranger Things
     326791: The Marvelous Mrs. Maisel
     79337: Friday Night Lights
@@ -184,18 +170,18 @@ IMDb Top 250:
     74608: Top Gear
     79843: The Thick of It
     235881: 'Behzat Ç.: The Story of a Rebel Cop'
-    388071: How To with John Wilson
     257980: Sarabhai vs Sarabhai
-    400694: Aspirants
+    388071: How To with John Wilson
     311714: This Is Us
+    400694: Aspirants
     75842: Father Ted
     79525: 'Code Geass: Lelouch of the Rebellion'
     262980: House of Cards (US)
     313999: Atlanta
     72023: Deadwood
-    392573: "ShÅ\x8Dgun"
     305574: The Crown
     79349: Dexter
+    392573: "ShÅ\x8Dgun"
     152831: Adventure Time
     159831: Ramayan
     378994: It's a Sin
@@ -203,8 +189,8 @@ IMDb Top 250:
     364007: Primal
     281662: Marvel's Daredevil
     80305: Lonesome Dove
-    328708: MINDHUNTER
     349743: Mr Inbetween
+    328708: MINDHUNTER
     76133: Agatha Christie's Poirot
     278157: Haikyu!!
     76316: Mr. Bean
@@ -213,21 +199,21 @@ IMDb Top 250:
     281342: Gomorrah
     421287: Scavengers Reign
     79685: Fighting Spirit
-    76829: Yes Minister
     346026: Pose
-    296861: Critical Role
+    76829: Yes Minister
     74806: Mystery Science Theater 3000
     322971: Anne with an E
     372318: Greatest Events of WWII in Colour
-    348545: 'Demon Slayer: Kimetsu no Yaiba'
+    296861: Critical Role
     256227: The Newsroom (2012)
+    348545: 'Demon Slayer: Kimetsu no Yaiba'
     350193: Yeh Meri Family
     192061: Young Justice
     84947: Boardwalk Empire
     82516: El Chavo del 8
     72716: QI
-    134241: Justified
     70727: 'Homicide: Life on the Street'
+    134241: Justified
     294564: The Bureau
     76666: Dragon Ball
     369284: The Family Man (2019)
@@ -243,15 +229,15 @@ IMDb Top 250:
     79216: The IT Crowd
     126121: Ezel
     289590: Mr. Robot
-    377543: Jujutsu Kaisen
     336872: Black Sun
+    377543: Jujutsu Kaisen
     254243: Impractical Jokers
     76605: I'm Alan Partridge
-    72658: Spaced
     280847: Detectorists
-    259184: The Eric Andre Show
+    72658: Spaced
     280537: Happy Valley
     75233: Long Way Round
+    259184: The Eric Andre Show
     307375: Mob Psycho 100
     129261: Spartacus
     76808: Whose Line Is It Anyway? (US)
@@ -266,22 +252,21 @@ IMDb Top 250:
     70566: Trailer Park Boys
     287247: Schitt's Creek
     161511: Shameless (US)
-    303786: SKAM
     70679: Brass Eye
+    303786: SKAM
     277165: Silicon Valley
+    344626: My Brilliant Friend
     79321: North & South
     75579: Fullmetal Alchemist
-    344626: My Brilliant Friend
     78804: Doctor Who (2005)
     259063: Hannibal
     419950: Extraordinary Attorney Woo
-    77831: From the Earth to the Moon
     113491: The European Side
+    77831: From the Earth to the Moon
     264234: Wentworth
     302938: Letterkenny
     279830: Your Lie in April
-    395494: Heartstopper
-    443065: Sapne Vs Everyone
+    79895: Gintama
     78837: Foyle's War
-    378982: All Creatures Great & Small (2020)
-    94571: Community
+    342848: Mr. Sunshine (2018)
+    184871: The Great British Bake Off
