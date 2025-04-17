@@ -30,7 +30,7 @@ libraries:                           # This is called out once within the config
     - default: ribbon                # This is a file within Kometa's defaults folder
       # see the wiki for how to use local files, folders, URLs, or files from git
       # see the wiki for how to use local files, folders, URLs, or files from git
-  Kids Movies (m):                            # These are names of libraries in your Plex
+  Kids' Movies (m):                            # These are names of libraries in your Plex
     remove_overlays: false           # Set this to true to remove all overlays
     collection_files:
     - default: basic                 # This is a file within Kometa's defaults folder
@@ -49,7 +49,7 @@ libraries:                           # This is called out once within the config
     overlay_files:
     - default: ribbon                # This is a file within Kometa's defaults folder
       # see the wiki for how to use local files, folders, URLs, or files from git
-  Kids TV Shows (m):
+  Kids' TV Shows (m):
     remove_overlays: false           # Set this to true to remove all overlays
     collection_files:
     - default: basic                 # This is a file within Kometa's defaults folder
@@ -84,9 +84,8 @@ settings:
   - overlays
   cache: true
   cache_expiration: 60
-  # asset_directory: "../../AppData/Local/Plex Media Server/_kometa_data_/assets"
-  # asset_directory: 'C:\\Users\\muelm\\AppData\\Local\\Plex Media Server\\_kometa_data_\\assets'
-  asset_directory: C:\\Users\\muelm\\AppData\\Local\\Plex\ Media\ Server\\_kometa_data_\\assets
+  # asset_directory: C:\Users\muelm\AppData\Local\Plex Media Server\_kometa_data_\assets
+  asset_directory: $env:LOCALAPPDATA\\Plex Media Server\\_kometa_data_\\assets
   asset_folders: true
   asset_depth: 0
   create_asset_folders: true
@@ -131,9 +130,9 @@ webhooks:                            # Can be individually specified per library
   delete:
 plex:                                # Can be individually specified per library as well; REQUIRED for the script to run
   url: http://127.0.0.1:32400/
-  token: SXj7-Tak2Kxw_59rsYmb
+  token: u1sgxR-chWpDx4kXW29X
   timeout: 60
-  db_cache:
+  db_cache: 4096
   clean_bundles: false
   empty_trash: false
   optimize: false
@@ -202,9 +201,9 @@ trakt:
   pin:
   authorization:
     # everything below is autofilled by the script
-    access_token: 6d513efc8ba58fe68d7156f6dbf8225946bc6efcf9730237f453bad3e9bc4874
+    access_token: 48324c398fd76c863e6ed122bb8ffd89f2f910af5d62f2c07217171983ce8b5d
     token_type: Bearer
     expires_in: 7889238
-    refresh_token: 6adc5000bfe11baad547e4ffd9a4b40fb1aca2f106dc1adec4e02b25d9f5ea12
+    refresh_token: 26439210b96aebe2b794e6c22c3949185147d8433aaf8fd26ed07133c3951a62
     scope: public
-    created_at: 1732725732
+    created_at: 1744637478
