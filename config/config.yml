@@ -4,7 +4,7 @@ libraries:                           # This is called out once within the config
   Movies (m):                            # These are names of libraries in your Plex
     sync_mode: sync
     # report_path: ../../.data/Plex-Meta-Manager/reports/Movies (m) Report.yml
-    report_path: C:\Users\muelm\AppData\Local\Plex Media Server\_kometa_data_\reports\Movies (m) Report.yml
+    report_path: C:\Users\muelm\.data\Plex-Meta-Manager\reports\Movies (m) Report.yml
     remove_overlays: false           # Set this to true to remove all overlays
     collection_files:
     - default: basic                 # This is a file within Kometa's defaults folder
@@ -15,7 +15,7 @@ libraries:                           # This is called out once within the config
   Movies 4k (m):                            # These are names of libraries in your Plex
     sync_mode: sync
     # report_path: ../../.data/Plex-Meta-Manager/reports/Movies 4k (m) Report.yml
-    report_path: C:\Users\muelm\AppData\Local\Plex Media Server\_kometa_data_\reports\Movies 4k (m) Report.yml
+    report_path: C:\Users\muelm\.data\Plex-Meta-Manager\reports\Movies 4k (m) Report.yml
     remove_overlays: false           # Set this to true to remove all overlays
     collection_files:
     - default: basic                 # This is a file within Kometa's defaults folder
@@ -31,6 +31,7 @@ libraries:                           # This is called out once within the config
       # see the wiki for how to use local files, folders, URLs, or files from git
       # see the wiki for how to use local files, folders, URLs, or files from git
   Kids' Movies (m):                            # These are names of libraries in your Plex
+    report_path: C:\Users\muelm\.data\Plex-Meta-Manager\reports\
     remove_overlays: false           # Set this to true to remove all overlays
     collection_files:
     - default: basic                 # This is a file within Kometa's defaults folder
@@ -41,6 +42,7 @@ libraries:                           # This is called out once within the config
       # see the wiki for how to use local files, folders, URLs, or files from git
       # see the wiki for how to use local files, folders, URLs, or files from git
   TV Shows (m):
+    report_path: C:\Users\muelm\.data\Plex-Meta-Manager\reports\
     remove_overlays: false           # Set this to true to remove all overlays
     collection_files:
     - default: basic                 # This is a file within Kometa's defaults folder
@@ -50,6 +52,7 @@ libraries:                           # This is called out once within the config
     - default: ribbon                # This is a file within Kometa's defaults folder
       # see the wiki for how to use local files, folders, URLs, or files from git
   Kids' TV Shows (m):
+    report_path: C:\Users\muelm\.data\Plex-Meta-Manager\reports\
     remove_overlays: false           # Set this to true to remove all overlays
     collection_files:
     - default: basic                 # This is a file within Kometa's defaults folder
@@ -69,7 +72,7 @@ libraries:                           # This is called out once within the config
     #   - default: Music\Albums                  # This is a file within Kometa's defaults folder
       # - default: Music\Year
     # report_path: ../../.data/Plex-Meta-Manager/reports/Music/Albums Report.yml
-    report_path: C:\Users\muelm\AppData\Local\Plex Media Server\_kometa_data_\reports\Music\Albums Report.yml
+    report_path: C:\Users\muelm\.data\Plex-Meta-Manager\reports\Albums Report.yml
       # - file: config/Music.yml       # This is a local file THAT YOU MIGHT CREATE
 playlist_files:
 - default: playlist                  # This is a file within Kometa's defaults folder
@@ -85,7 +88,9 @@ settings:
   cache: true
   cache_expiration: 60
   # asset_directory: C:\Users\muelm\AppData\Local\Plex Media Server\_kometa_data_\assets
-  asset_directory: $env:LOCALAPPDATA\\Plex Media Server\\_kometa_data_\\assets
+  # asset_directory: $env:LOCALAPPDATA\\Plex Media Server\\_kometa_data_\\assets
+  # asset_directory: ${LOCALAPPDATA}\Plex Media Server\_kometa_data_\assets
+  asset_directory: ${%USERPROFILE%}\.data\Plex-Meta-Manager\assets
   asset_folders: true
   asset_depth: 0
   create_asset_folders: true
